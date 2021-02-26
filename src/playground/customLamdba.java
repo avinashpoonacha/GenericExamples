@@ -14,14 +14,25 @@ class customLambda {
         Avi.greeting("Hello ");
         Avi.check();
 
-        customLambdaI Avinash = (String s) -> { System.out.println(s + " Avinash ");};
+        customLambdaI Avinash = (s) -> { System.out.println(s + " Avinash ");};
         Avinash.greeting("Hello ");
         Avinash.check1();
 
+        MathOperation mathOp = (a,b) -> System.out.println(a+b);
+        mathOp.add(23234234,454664);
 
         
     }
 }
+
+
+@FunctionalInterface
+interface MathOperation {
+
+    public void add(int a,int b);
+}
+
+
 
 
 

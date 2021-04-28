@@ -1,6 +1,5 @@
 package Training.connPool;
 
-import jdk.nashorn.internal.ir.LiteralNode;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
